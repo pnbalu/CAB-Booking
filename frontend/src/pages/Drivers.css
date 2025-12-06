@@ -1,0 +1,180 @@
+.drivers {
+  padding: 32px;
+}
+
+.drivers-header {
+  margin-bottom: 32px;
+}
+
+.drivers-header h1 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 8px;
+}
+
+.drivers-header p {
+  color: #666;
+  font-size: 16px;
+}
+
+.drivers-table-container {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.drivers-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.drivers-table thead {
+  background: #f8f9fa;
+}
+
+.drivers-table th {
+  padding: 16px;
+  text-align: left;
+  font-weight: 600;
+  color: #333;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-bottom: 2px solid #e0e0e0;
+}
+
+.drivers-table td {
+  padding: 16px;
+  border-bottom: 1px solid #f0f0f0;
+  color: #666;
+}
+
+.drivers-table tbody tr:hover {
+  background: #f8f9fa;
+}
+
+.driver-name {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.driver-email {
+  font-size: 12px;
+  color: #999;
+}
+
+.license-plate {
+  font-size: 12px;
+  color: #999;
+  margin-top: 4px;
+}
+
+.rating {
+  color: #FFD700;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.status-badge.online {
+  background: #e8f5e9;
+  color: #2e7d32;
+}
+
+.status-badge.offline {
+  background: #f5f5f5;
+  color: #666;
+}
+
+.earnings {
+  font-weight: 600;
+  color: #32CD32;
+}
+
+.action-btn {
+  padding: 6px 12px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.action-btn.view {
+  background: #667eea;
+  color: white;
+}
+
+.action-btn.view:hover {
+  background: #5568d3;
+}
+
+.action-btn.edit {
+  background: #f5f5f5;
+  color: #333;
+}
+
+.action-btn.edit:hover {
+  background: #e0e0e0;
+}
+
+.action-btn.verify {
+  background-color: #4ade80;
+  color: white;
+}
+
+.action-btn.verify:hover {
+  background-color: #22c55e;
+}
+
+.action-btn.unverify {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.action-btn.unverify:hover {
+  background-color: #d97706;
+}
+
+.verification-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.verification-badge.verified {
+  background-color: #f0fdf4;
+  color: #4ade80;
+}
+
+.verification-badge.pending {
+  background-color: #fffbeb;
+  color: #f59e0b;
+}
+
+.verification-badge.unverified {
+  background-color: #f5f5f5;
+  color: #999;
+}
+
