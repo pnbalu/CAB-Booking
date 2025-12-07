@@ -6,28 +6,27 @@ A complete ride-sharing application with separate mobile app and web admin panel
 
 ## 📹 Demo Videos
 
-> **🎬 Watch the demos to see the app in action!** All demo videos are available in the [`demo/`](demo/) folder.
+> **🎬 Watch the demos to see the app in action!** Click on the video links below to view them directly on GitHub.
 
 ### 🚗 Rider App Demo
 
-<video width="600" controls>
-  <source src="demo/rider.mp4" type="video/mp4">
-  Your browser does not support the video tag. [Download Rider Demo](demo/rider.mp4)
-</video>
+https://github.com/pnbalu/CAB-Booking/blob/main/demo/rider.mp4
+
+[![Rider App Demo](https://img.shields.io/badge/📱-Watch%20Rider%20Demo-blue?style=for-the-badge)](https://github.com/pnbalu/CAB-Booking/blob/main/demo/rider.mp4)
 
 ### 🚕 Driver App Demo
 
-<video width="600" controls>
-  <source src="demo/driver.mp4" type="video/mp4">
-  Your browser does not support the video tag. [Download Driver Demo](demo/driver.mp4)
-</video>
+https://github.com/pnbalu/CAB-Booking/blob/main/demo/driver.mp4
+
+[![Driver App Demo](https://img.shields.io/badge/🚕-Watch%20Driver%20Demo-green?style=for-the-badge)](https://github.com/pnbalu/CAB-Booking/blob/main/demo/driver.mp4)
 
 ### 💻 Web Admin Panel Demo
 
-<video width="600" controls>
-  <source src="demo/webapp.mp4" type="video/mp4">
-  Your browser does not support the video tag. [Download Web App Demo](demo/webapp.mp4)
-</video>
+https://github.com/pnbalu/CAB-Booking/blob/main/demo/webapp.mp4
+
+[![Web App Demo](https://img.shields.io/badge/💻-Watch%20Web%20App%20Demo-purple?style=for-the-badge)](https://github.com/pnbalu/CAB-Booking/blob/main/demo/webapp.mp4)
+
+> **💡 Note:** Click on the video links above to view them directly on GitHub. The videos will play inline when you click on them.
 
 ## Project Structure
 
