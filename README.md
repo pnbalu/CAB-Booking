@@ -2,6 +2,23 @@
 
 A complete ride-sharing application with separate mobile app and web admin panel.
 
+---
+
+## 📹 Demo Videos
+
+> **🎬 Watch the demos to see the app in action!** All demo videos are available in the [`demo/`](demo/) folder.
+
+### 🚗 Rider App Demo
+👉 **[Watch Rider App Demo Video →](demo/rider.mp4)**
+
+### 🚕 Driver App Demo
+👉 **[Watch Driver App Demo Video →](demo/driver.mp4)**
+
+### 💻 Web Admin Panel Demo
+👉 **[Watch Web Admin Panel Demo Video →](demo/webapp.mp4)**
+
+> **💡 Tip:** Click on the video links above to view them directly on GitHub. The videos will play inline when clicked.
+
 ## Project Structure
 
 ```
@@ -106,3 +123,13 @@ Both applications are completely separate and can be developed independently:
 2. **Web Admin**: Navigate to `frontend/` directory
 
 Each has its own `package.json` and dependencies.
+
+---
+
+## 📧 Support & Contact
+
+If you are looking for help or have any questions, please feel free to reach out:
+
+📧 **Email**: [pnbalu@yahoo.com](mailto:pnbalu@yahoo.com)
+
+We're happy to assist with any issues, feature requests, or questions about the project!

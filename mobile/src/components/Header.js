@@ -39,41 +39,43 @@ const Header = ({
       end={{ x: 1, y: 1 }}
       style={[
         styles.header,
-        { paddingTop: insets.top },
+        { paddingTop: insets.top-50 },
         headerStyle,
       ]}
     >
-      {/* Logo in top left */}
-      <View style={styles.logoContainer}>
-        {appConfig.logo.image ? (
-          <Image
-            source={appConfig.logo.image}
-            style={styles.logoImage}
-            resizeMode="contain"
-          />
-        ) : (
-          <View style={styles.logoFallback}>
-            <Ionicons name={appConfig.logo.icon} size={20} color="#fff" />
-          </View>
+      {/* Left side: Logo and Back Button */}
+      <View style={styles.leftSection}>
+        {/* Logo */}
+        <View style={styles.logoContainer}>
+          {appConfig.logo.image ? (
+            <Image
+              source={appConfig.logo.image}
+              style={styles.logoImage}
+              resizeMode="contain"
+            />
+          ) : (
+            <View style={styles.logoFallback}>
+              <Ionicons name={appConfig.logo.icon} size={20} color="#fff" />
+            </View>
+          )}
+        </View>
+
+        {/* Back Button */}
+        {showBackButton && (
+          <TouchableOpacity
+            style={styles.backButton}
+            onPress={handleBackPress}
+            activeOpacity={0.7}
+          >
+            <Ionicons name="arrow-back" size={24} color="#fff" />
+          </TouchableOpacity>
         )}
       </View>
-
-      {showBackButton ? (
-        <TouchableOpacity
-          style={styles.backButton}
-          onPress={handleBackPress}
-          activeOpacity={0.7}
-        >
-          <Ionicons name="arrow-back" size={24} color="#fff" />
-        </TouchableOpacity>
-      ) : (
-        <View style={styles.placeholder} />
-      )}
       
+      {/* Center: Title */}
       <Text 
         style={[
-          styles.headerTitle, 
-          { marginLeft: showBackButton ? 12 : 60 },
+          styles.headerTitle,
           titleStyle
         ]} 
         numberOfLines={1}
@@ -81,7 +83,10 @@ const Header = ({
         {title || ''}
       </Text>
       
-      {rightComponent || <View style={styles.placeholder} />}
+      {/* Right side: Right Component or Placeholder */}
+      <View style={styles.rightSection}>
+        {rightComponent || <View style={styles.placeholder} />}
+      </View>
     </LinearGradient>
   );
 };
@@ -96,11 +101,15 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     minHeight: 56,
   },
+  leftSection: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+    flex: 1,
+  },
   logoContainer: {
-    position: 'absolute',
-    left: 16,
-    top: 8,
-    zIndex: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   logoImage: {
     width: appConfig.logo.width || 100,
@@ -121,16 +130,20 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     borderRadius: 18,
     backgroundColor: 'rgba(255, 255, 255, 0.2)',
-    marginLeft: 60, // Add margin to account for logo
   },
   headerTitle: {
-    flex: 1,
+    flex: 2,
     fontSize: 20,
     fontWeight: '700',
     color: '#fff',
     letterSpacing: 0.3,
     textAlign: 'center',
     marginHorizontal: 12,
+  },
+  rightSection: {
+    flex: 1,
+    alignItems: 'flex-end',
+    justifyContent: 'center',
   },
   placeholder: {
     width: 36,
