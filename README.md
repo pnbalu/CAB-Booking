@@ -9,15 +9,25 @@ A complete ride-sharing application with separate mobile app and web admin panel
 > **🎬 Watch the demos to see the app in action!** All demo videos are available in the [`demo/`](demo/) folder.
 
 ### 🚗 Rider App Demo
-👉 **[Watch Rider App Demo Video →](demo/rider.mp4)**
+
+<video width="600" controls>
+  <source src="demo/rider.mp4" type="video/mp4">
+  Your browser does not support the video tag. [Download Rider Demo](demo/rider.mp4)
+</video>
 
 ### 🚕 Driver App Demo
-👉 **[Watch Driver App Demo Video →](demo/driver.mp4)**
+
+<video width="600" controls>
+  <source src="demo/driver.mp4" type="video/mp4">
+  Your browser does not support the video tag. [Download Driver Demo](demo/driver.mp4)
+</video>
 
 ### 💻 Web Admin Panel Demo
-👉 **[Watch Web Admin Panel Demo Video →](demo/webapp.mp4)**
 
-> **💡 Tip:** Click on the video links above to view them directly on GitHub. The videos will play inline when clicked.
+<video width="600" controls>
+  <source src="demo/webapp.mp4" type="video/mp4">
+  Your browser does not support the video tag. [Download Web App Demo](demo/webapp.mp4)
+</video>
 
 ## Project Structure
 
